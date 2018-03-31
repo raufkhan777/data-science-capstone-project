@@ -47,7 +47,7 @@ shinyUI(fluidPage(
       uiOutput("wordPred"),
       # uiOutput("wordPred2"),
       br(), br(),
-      a(href="https://github.com/jm-carson/DevelopingDataProductsCourseProject", "Github repository", style="float:left;")
+      a(href="https://github.com/raufkhan777/DevelopingDataProductsCourseProject", "Github repository", style="float:left;")
       
       # plotOutput("distPlot")
     )
