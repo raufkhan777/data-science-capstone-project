@@ -1,6 +1,5 @@
- Course 10: Data Science Capstone
-# John Hopkins Data Science Specialization
-# Shrink data set
+  Data Science Capstone project
+#  data set
 
 # Run garbage collection to clear out memory that's no longer being used
 gc()
@@ -17,7 +16,7 @@ suppressWarnings(library("stringr"))
 suppressWarnings(library("textclean"))
 
 # Set working directory and load libraries
-setwd("~/R/Course 10 - Data Science Capstone/Course10Capstoneproject/Data") 
+setwd("~/R/ Data Science Capstone/Capstoneproject/Data") 
 
 # Load datasets
 data_blogs <- scan(file="en_US.blogs.txt",what ="character", sep="\n",encoding = "UTF-8")
