@@ -11,7 +11,7 @@ For more details on authoring R presentations please visit https://support.rstud
 Overview of Shiny App Functionality
 The Shiny App allows the user to input a text string of one or more words
 The app outputs the predicted next word
-Access the Shiny App at: https://jmcarson.shinyapps.io/TextPredDataProd/
+Access the Shiny App at: https://raufkhan777.shinyapps.io/TextPredDataProd/
 Visit my github page for additional details: https://github.com/raufkhan777/DataScienceCapstoneproject
 Shiny App Algorithm
 The app uses the Stupid Backoff language model: [ Score(z|xy) = \frac{f(xyz)}{f(xy)} iff(xyz)~exists ] [ Score(z|xy) = \lambda,S(z|y) ~~~otherwise ]
