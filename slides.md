@@ -1,0 +1,30 @@
+Data Science Capstone: Text Prediction Data Product
+Requirements for Course Project
+- Create a Shiny application and deploy on RStudio's servers
+- The Shiny app should accept input and get a prediction of a single word
+- Create 5-slide pitch presentation using RStudio Presenter
+* Include description of algorithm used to make prediction
+* Provide instructions on how to use App
+* Describe app functionality
+For more details on authoring R presentations please visit https://support.rstudio.com/hc/en-us/articles/200486468.
+
+Overview of Shiny App Functionality
+The Shiny App allows the user to input a text string of one or more words
+The app outputs the predicted next word
+Access the Shiny App at: https://jmcarson.shinyapps.io/TextPredDataProd/
+Visit my github page for additional details: https://github.com/raufkhan777/DataScienceCapstoneproject
+Shiny App Algorithm
+The app uses the Stupid Backoff language model: [ Score(z|xy) = \frac{f(xyz)}{f(xy)} iff(xyz)~exists ] [ Score(z|xy) = \lambda,S(z|y) ~~~otherwise ]
+
+Example: yz is text string "I have" [ Score(started|Ihave) = \frac{f(Ihavestarted)}{f(Ihave)} ]
+
+Stupid Backoff source paper: http://www.aclweb.org/anthology/D07-1090.pdf
+
+Helpful reference from book "Speech and Language Processing (3rd ed. draft)" by Dan Jurafsky and James H. Martin: https://web.stanford.edu/~jurafsky/slp3/4.pdf
+
+Additional Notes
+Source data
+The corpora are English-language samples were scraped from blogs, news articles, and Twitter
+Dataset: https://d396qusza40orc.cloudfront.net/dsscapstone/dataset/Coursera-SwiftKey.zip
+Milestone report available here: http://rpubs.com
+Enjoy using the Shiny App to predict the next word!
