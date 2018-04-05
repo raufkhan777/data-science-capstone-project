@@ -20,7 +20,7 @@ Overview of Shiny App Functionality
 ========================================================
 - The Shiny App allows the user to input a text string of one or more words
 - The app outputs the predicted next word
-- Access the Shiny App at: <https://jmcarson.shinyapps.io/TextPredDataProd/> 
+- Access the Shiny App at: <https://rauf.shinyapps.io/TextPredDataProd/> 
 - Visit my github page for additional details: <https://github.com/raufkhan777/DataScienceCapstoneproject>
 
 Shiny App Algorithm
